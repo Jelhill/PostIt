@@ -1,0 +1,115 @@
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --darkBlue: rgb(89, 89, 94);
+    --lightGray: #ECF0F1 ;
+    --mainWhite: #FFF;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side{
+    width: 50vw;
+    height: 100vh;
+    background-color: burlywood;
+    box-sizing: border-box;
+    background-color: var(--lightGray);
+}
+
+.right-side{
+    width: 50vw;
+    height: 100vh;
+    background-color: var(--mainWhite);
+    box-sizing: border-box;
+}
+
+.left-side h1{
+    color: var(--darkBlue);
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    margin-top: 30%;
+    margin-left: 25%;
+}
+
+.form-div{
+    width: 60%;
+    margin: auto;
+    margin-top: 25%;    
+}
+
+input[type="firstname"], 
+input[type="lastname"], 
+input[type="email"], 
+input[type="password"] {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 15px;
+    border: 3px solid #ECF0F1 ;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+.below-input{
+    display: flex;
+    justify-content: space-between;
+}
+
+.below-input a{
+    text-decoration: none;
+    color: #E74C3C;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    background-color: var(--darkBlue);
+    color: var(--mainWhite);
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.below-input-right {
+    color: #B3B6B7;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    
+}
+button:hover{
+    opacity: 0.9;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #D0D3D4;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #D0D3D4;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #D0D3D4;
+  }
+
+  .dontHaveAccount{
+      margin-top: 20%;
+      margin-left: 20%;
+      font-family: 'Roboto', sans-serif;    
+      color: var(--darkBlue);
+  }
+
+  .dontHaveAccount a {
+      text-decoration: none;
+      color: #E74C3C;
+  }
