@@ -19,6 +19,8 @@ h1, h2, h3, h4, h5, h6, p{
     background-color: burlywood;
     box-sizing: border-box;
     background-color: var(--lightGray);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 .right-side{
@@ -30,11 +32,11 @@ h1, h2, h3, h4, h5, h6, p{
 
 .left-side h1{
     color: var(--darkBlue);
-    font-size: 100px;
+    font-size: 70px;
     font-family: 'Roboto', sans-serif;
     margin: auto;
     margin-top: 30%;
-    margin-left: 25%;
+
 }
 
 .form-div{
