@@ -7,35 +7,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@469&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@469&family=Roboto:wght@700&display=swap" rel="stylesheet">
     <title>Document</title>
-
 </head>
 <body>
-    <div class="container">
-        
-            <div class="left-side">
-                <h1>PostIt</h1>
-                <h4>Sending group notification made easier</h4>
-            </div>
-            <div class="right-side">
-                <div class="form-div">
-                    <form action="">
-                        <div>
-                            <input type="email" placeholder="Email">
-                            <input type="password" placeholder="Password"><br>
-                        </div>
-                        <div class="below-input">
-                            <div class="below-input-right"><input type="checkbox">Remember me </div>
-                            <a href="#">Forgot Password</a>
-                        </div>
-                        <button>Sign In</button>                        
-                    </form>
-                    <div class="dontHaveAccount">
-                        <p>Dont have an account? <a href="register.html">Sign Up</a></p>
+    <div class="container">    
+        <div class="left-side">
+            <h1>PostIt</h1>
+            <h4>Sending group notification made easier</h4>
+        </div>
+        <div class="right-side">
+            <div class="form-div">
+                <form action="">
+                    <div>
+                        <input type="email" placeholder="Email" name="email" id="email" autocomplete="on">
+                        <input type="password" placeholder="Password" name="password" id="password" autocomplete="off"><br>
                     </div>
+                    <div class="below-input">
+                        <div class="below-input-right"><input type="checkbox">Remember me </div>
+                        <a href="#">Forgot Password</a>
+                    </div>
+                    <button id="login">Sign In</button>                        
+                </form>
+                <div class="dontHaveAccount">
+                    <p>Dont have an account? <a href="register.html">Sign Up</a></p>
                 </div>
-
             </div>
-     
+
+        </div> 
     </div>    
-</body>
+
+    <script src="script.js"></script>
+</body>    
 </html>

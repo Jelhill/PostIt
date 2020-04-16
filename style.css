@@ -44,8 +44,7 @@ h1, h2, h3, h4, h5, h6, p{
     margin-top: 25%;    
 }
 
-input[type="firstname"], 
-input[type="lastname"], 
+input[type="text"], 
 input[type="email"], 
 input[type="password"] {
     width: 100%;
