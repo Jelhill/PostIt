@@ -129,7 +129,6 @@ button:hover {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  overflow: hidden;
 }
 
 .bigman {
@@ -141,10 +140,12 @@ button:hover {
 
 .tochukwu {
   width: 20%;
+  background-color: #154360;
 }
 
 .container-box {
   width: 80%;
+  height: 100%;
   background: #f3f3fb;
 }
 
