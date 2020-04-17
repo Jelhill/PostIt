@@ -309,3 +309,70 @@ button:hover {
   padding: 10px;
   font-size: 15px;
 }
+.homepageLeft {
+  position: absolute;
+  width: 310px;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  
+  background: #154360;
+}
+
+.homepageLeft .logo{
+    margin-left: 58px;
+    margin-top: 52px;
+    display:flex;
+}
+
+.homepageLeft .logo .postit{
+    font-weight: bold;
+    font-size: 45px;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+    margin-left: 10px;
+}
+
+.homepageLeft .create-channel{
+    display: flex;
+    margin-left: 93px;
+    margin-top: 30px;
+}
+
+.homepageLeft .create-channel .create{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255,255,255,0.5)
+}
+
+.homepageLeft .create-channel .add {
+    margin-left: 36px;
+    font-size: 20px;
+    font-weight: 50px;
+    border:2px;
+    color: #fff
+}
+
+.homepageLeft .group{
+  margin-left: 93px;
+  margin-top: 23px;
+
+}
+
+.homepageLeft .group .groups {
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFF
+}
+
+.homepageLeft .group .groups:hover {
+    color: #fc7037;
+}
+.homepageLeft .group .one{
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fc7037;
+}
