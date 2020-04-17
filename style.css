@@ -129,23 +129,20 @@ button:hover {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  overflow: hidden;
-}
+  /* overflow: hidden; */
 
-.bigman {
+}
+.homepage-wrapper {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  height: 100vh;
   display: flex;
-}
-
-.tochukwu {
-  width: 20%;
+  justify-content: space-between;
 }
 
 .container-box {
   width: 80%;
   background: #f3f3fb;
+  box-sizing: border-box;
 }
 
 .box-1 {
@@ -165,8 +162,8 @@ button:hover {
 }
 
 .box-1 img {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   margin-right: 15px;
 }
@@ -228,12 +225,14 @@ button:hover {
 }
 
 .addmessage {
-  background-color: #ffffff;
-  margin-top: 350px;
+  background-color: green;
+  /* margin-top: 350px; */
   width: 95%;
-  height: 20vh;
+  height: 25vh;
   margin-left: 26px;
   border: 1px solid #f3f3fb;
+  box-sizing: border-box;
+  position: relative;
 }
 
 .mood {
@@ -270,24 +269,27 @@ button:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
+  justify-content: space-between;
+  /* position: relative; */
 }
 
 .inputmedia input {
-  width: 1300px;
+  width: 85%;
   height: 50px;
-  margin-top: 20px;
-  margin-left: 40px;
+  /* margin-top: 20px; */
+  margin-left: 2%;
   background-color: #ebebeb;
   border: 1px solid #ebebeb;
   border-radius: 2px;
-  position: relative;
+  position: absolute;
 }
 
 .inputmedia .medialine {
-  position: absolute;
-  right: 60px;
-  top: 33px;
+  /* position: absolute; */
+  /* right: 60px;
+  top: 33px; */
+  width: 5%;
+  display: flex;
 }
 
 .inputmedia ::-webkit-input-placeholder {
@@ -310,12 +312,12 @@ button:hover {
   font-size: 15px;
 }
 .homepageLeft {
-  position: absolute;
-  width: 310px;
-  height: 100vh;
-  left: 0px;
-  top: 0px;
-  
+  /* position: absolute; */
+  /* width: 310px; */
+  width: 20%;
+  /* height: 123vh; */
+
+  box-sizing: border-box;
   background: #154360;
 }
 
@@ -336,7 +338,7 @@ button:hover {
 
 .homepageLeft .create-channel{
     display: flex;
-    margin-left: 93px;
+    margin-left: 53px;
     margin-top: 30px;
 }
 
@@ -355,7 +357,7 @@ button:hover {
 }
 
 .homepageLeft .group{
-  margin-left: 93px;
+  margin-left: 53px;
   margin-top: 23px;
 
 }
