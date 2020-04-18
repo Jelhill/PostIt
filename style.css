@@ -322,6 +322,7 @@ button:hover {
 .homepageLeft {
   /* position: absolute; */
   /* width: 310px; */
+  height: 100%;
   width: 20%;
   /* height: 123vh; */
 
@@ -362,6 +363,7 @@ button:hover {
   font-weight: 50px;
   border: 2px;
   color: #fff;
+  text-decoration: none;
 }
 
 .homepageLeft .group {
