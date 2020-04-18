@@ -131,11 +131,11 @@ button:hover {
   font-family: "Roboto", sans-serif;
 }
 
-.bigman {
+.homepage-wrapper {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  height: 100vh;
   display: flex;
+  justify-content: space-between;
 }
 
 .tochukwu {
@@ -146,6 +146,7 @@ button:hover {
   width: 80%;
   height: 100%;
   background: #f3f3fb;
+  box-sizing: border-box;
 }
 
 .box-1 {
@@ -165,8 +166,8 @@ button:hover {
 }
 
 .box-1 img {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   margin-right: 15px;
 }
@@ -228,12 +229,14 @@ button:hover {
 }
 
 .addmessage {
-  background-color: #ffffff;
-  margin-top: 350px;
+  background-color: green;
+  /* margin-top: 350px; */
   width: 95%;
-  height: 20vh;
+  height: 25vh;
   margin-left: 26px;
   border: 1px solid #f3f3fb;
+  box-sizing: border-box;
+  position: relative;
 }
 
 .mood {
@@ -270,24 +273,27 @@ button:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
+  justify-content: space-between;
+  /* position: relative; */
 }
 
 .inputmedia input {
-  width: 1300px;
+  width: 85%;
   height: 50px;
-  margin-top: 20px;
-  margin-left: 40px;
+  /* margin-top: 20px; */
+  margin-left: 2%;
   background-color: #ebebeb;
   border: 1px solid #ebebeb;
   border-radius: 2px;
-  position: relative;
+  position: absolute;
 }
 
 .inputmedia .medialine {
-  position: absolute;
-  right: 60px;
-  top: 33px;
+  /* position: absolute; */
+  /* right: 60px;
+  top: 33px; */
+  width: 5%;
+  display: flex;
 }
 
 .inputmedia ::-webkit-input-placeholder {
@@ -308,4 +314,71 @@ button:hover {
 .inputmedia ::placeholder {
   padding: 10px;
   font-size: 15px;
+}
+.homepageLeft {
+  /* position: absolute; */
+  /* width: 310px; */
+  width: 20%;
+  /* height: 123vh; */
+
+  box-sizing: border-box;
+  background: #154360;
+}
+
+.homepageLeft .logo{
+    margin-left: 58px;
+    margin-top: 52px;
+    display:flex;
+}
+
+.homepageLeft .logo .postit{
+    font-weight: bold;
+    font-size: 45px;
+    align-items: center;
+    text-align: center;
+    color: #FFF;
+    margin-left: 10px;
+}
+
+.homepageLeft .create-channel{
+    display: flex;
+    margin-left: 53px;
+    margin-top: 30px;
+}
+
+.homepageLeft .create-channel .create{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255,255,255,0.5)
+}
+
+.homepageLeft .create-channel .add {
+    margin-left: 36px;
+    font-size: 20px;
+    font-weight: 50px;
+    border:2px;
+    color: #fff
+}
+
+.homepageLeft .group{
+  margin-left: 53px;
+  margin-top: 23px;
+
+}
+
+.homepageLeft .group .groups {
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFF
+}
+
+.homepageLeft .group .groups:hover {
+    color: #fc7037;
+}
+.homepageLeft .group .one{
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fc7037;
 }
