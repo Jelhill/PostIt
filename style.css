@@ -140,7 +140,6 @@ button:hover {
 
 .tochukwu {
   width: 20%;
-  background-color: #154360;
 }
 
 .container-box {
@@ -230,14 +229,13 @@ button:hover {
 }
 
 .addmessage {
-  background-color: green;
-  /* margin-top: 350px; */
+  background-color: #ffffff;
+  margin-top: 23%;
   width: 95%;
-  height: 25vh;
+  height: 20vh;
   margin-left: 26px;
   border: 1px solid #f3f3fb;
   box-sizing: border-box;
-  position: relative;
 }
 
 .mood {
@@ -279,9 +277,9 @@ button:hover {
 }
 
 .inputmedia input {
-  width: 85%;
+  width: 68%;
   height: 50px;
-  /* margin-top: 20px; */
+  margin-top: 2%;
   margin-left: 2%;
   background-color: #ebebeb;
   border: 1px solid #ebebeb;
@@ -290,16 +288,21 @@ button:hover {
 }
 
 .inputmedia .medialine {
-  /* position: absolute; */
-  /* right: 60px;
-  top: 33px; */
+  margin-top: 2.6%;
+  margin-right: 25px;
+  padding: 5px;
+  height: 50px;
+  border-radius: 2px;
+  background-color: #ebebeb;
+  border: 1px solid #ebebeb;
   width: 5%;
   display: flex;
 }
 
 .inputmedia ::-webkit-input-placeholder {
   padding: 10px;
-  font-size: 15px;
+  font-size: 20px;
+  color: black;
 }
 
 .inputmedia :-ms-input-placeholder {
@@ -326,58 +329,57 @@ button:hover {
   background: #154360;
 }
 
-.homepageLeft .logo{
-    margin-left: 58px;
-    margin-top: 52px;
-    display:flex;
+.homepageLeft .logo {
+  margin-left: 58px;
+  margin-top: 52px;
+  display: flex;
 }
 
-.homepageLeft .logo .postit{
-    font-weight: bold;
-    font-size: 45px;
-    align-items: center;
-    text-align: center;
-    color: #FFF;
-    margin-left: 10px;
+.homepageLeft .logo .postit {
+  font-weight: bold;
+  font-size: 45px;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-left: 10px;
 }
 
-.homepageLeft .create-channel{
-    display: flex;
-    margin-left: 53px;
-    margin-top: 30px;
+.homepageLeft .create-channel {
+  display: flex;
+  margin-left: 53px;
+  margin-top: 30px;
 }
 
-.homepageLeft .create-channel .create{
-    font-weight: bold;
-    font-size: 20px;
-    color: rgba(255,255,255,0.5)
+.homepageLeft .create-channel .create {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .homepageLeft .create-channel .add {
-    margin-left: 36px;
-    font-size: 20px;
-    font-weight: 50px;
-    border:2px;
-    color: #fff
+  margin-left: 36px;
+  font-size: 20px;
+  font-weight: 50px;
+  border: 2px;
+  color: #fff;
 }
 
-.homepageLeft .group{
+.homepageLeft .group {
   margin-left: 53px;
   margin-top: 23px;
-
 }
 
 .homepageLeft .group .groups {
-    margin-bottom: 25px;
-    font-weight: bold;
-    font-size: 18px;
-    color: #FFF
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
 }
 
 .homepageLeft .group .groups:hover {
-    color: #fc7037;
+  color: #fc7037;
 }
-.homepageLeft .group .one{
+.homepageLeft .group .one {
   margin-bottom: 25px;
   font-weight: bold;
   font-size: 18px;
