@@ -172,6 +172,7 @@ button:hover {
   margin-right: 15px;
 }
 
+
 .box-1 a {
   text-decoration: none;
   color: #154360;
@@ -277,7 +278,7 @@ button:hover {
 }
 
 .inputmedia input {
-  width: 68%;
+  width: 66%;
   height: 50px;
   margin-top: 2%;
   margin-left: 2%;
@@ -295,8 +296,18 @@ button:hover {
   border-radius: 2px;
   background-color: #ebebeb;
   border: 1px solid #ebebeb;
-  width: 5%;
+  width: 9%;
   display: flex;
+}
+
+span{
+  font-size: 25px;
+  color: gray;
+}
+
+.clip{
+  transform: rotate(75deg);
+  margin-left: 15px;
 }
 
 .inputmedia ::-webkit-input-placeholder {
