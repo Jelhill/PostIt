@@ -398,3 +398,35 @@ span{
   font-size: 18px;
   color: #fc7037;
 }
+
+
+/* Channel Form Styling */
+
+.channelFormWrapper{
+  width: 450px;
+  height: 300px;
+  margin: auto; 
+  margin-top: 10%;
+}
+
+.channelFormWrapper h1{  
+  margin-bottom: 40px;
+  color: var(--darkBlue);
+}
+.channelFormInput input {
+  background-color: #F4F6F7;
+}
+
+.channelFormWrapper a{
+  text-decoration: none;
+  margin-left: 5px;
+}
+.channelFormWrapper button{
+  width: 120px;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.below-links{
+  float: right;
+}
