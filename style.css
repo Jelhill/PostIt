@@ -123,6 +123,19 @@ button:hover {
   text-decoration: none;
   color: #e74c3c;
 }
+
+.logo{
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+.google-signIn{
+  background-color: red;
+}
+
+
+/* Home page Styling */
 * {
   margin: 0;
   padding: 0;
