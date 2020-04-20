@@ -123,6 +123,22 @@ button:hover {
   text-decoration: none;
   color: #e74c3c;
 }
+
+.logo {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+.google-signIn {
+  background-color: red;
+  border: none;
+}
+#login {
+  border: none;
+}
+
+/* Home page Styling */
 * {
   margin: 0;
   padding: 0;
@@ -277,7 +293,7 @@ button:hover {
 }
 
 .inputmedia input {
-  width: 68%;
+  width: 66%;
   height: 50px;
   margin-top: 2%;
   margin-left: 2%;
@@ -295,8 +311,18 @@ button:hover {
   border-radius: 2px;
   background-color: #ebebeb;
   border: 1px solid #ebebeb;
-  width: 5%;
+  width: 9%;
   display: flex;
+}
+
+span {
+  font-size: 25px;
+  color: gray;
+}
+
+.clip {
+  transform: rotate(75deg);
+  margin-left: 15px;
 }
 
 .inputmedia ::-webkit-input-placeholder {
@@ -322,6 +348,7 @@ button:hover {
 .homepageLeft {
   /* position: absolute; */
   /* width: 310px; */
+  height: 100%;
   width: 20%;
   /* height: 123vh; */
 
@@ -362,6 +389,7 @@ button:hover {
   font-weight: 50px;
   border: 2px;
   color: #fff;
+  text-decoration: none;
 }
 
 .homepageLeft .group {
@@ -384,4 +412,35 @@ button:hover {
   font-weight: bold;
   font-size: 18px;
   color: #fc7037;
+}
+
+/* Channel Form Styling */
+
+.channelFormWrapper {
+  width: 450px;
+  height: 300px;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.channelFormWrapper h1 {
+  margin-bottom: 40px;
+  color: var(--darkBlue);
+}
+.channelFormInput input {
+  background-color: #f4f6f7;
+}
+
+.channelFormWrapper a {
+  text-decoration: none;
+  margin-left: 5px;
+}
+.channelFormWrapper button {
+  width: 120px;
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.below-links {
+  float: right;
 }
